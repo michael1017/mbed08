@@ -5,7 +5,7 @@
 
 // The number of labels (without negative)
 
-#define label_num 2
+#define label_num 4
 
 
 struct Config {
@@ -23,39 +23,8 @@ struct Config {
 
   const char* output_message[label_num] = {
 
-        "RING:\n\r"
-
-        "          *       \n\r"
-
-        "       *     *    \n\r"
-
-        "     *         *  \n\r"
-
-        "    *           * \n\r"
-
-        "     *         *  \n\r"
-
-        "       *     *    \n\r"
-
-        "          *       \n\r",
-
-        "SLOPE:\n\r"
-
-        "        *        \n\r"
-
-        "       *         \n\r"
-
-        "      *          \n\r"
-
-        "     *           \n\r"
-
-        "    *            \n\r"
-
-        "   *             \n\r"
-
-        "  *              \n\r"
-
-        " * * * * * * * * \n\r"};
+        "RING\n\r", "rtl\n\r", "ltr\n\r", "utd:\n\r"
+  };
 
 };
 
